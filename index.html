@@ -9,45 +9,47 @@
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="./css/styles.css" />
 		<link rel="stylesheet" href="./css/normalize.css" />
+		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
 		<!-- Шапка -->
 		<header>
-			<nav>
-				<a href="./index.html">
-					<span class="logo">
-						<span class="web">Web</span>
-						Studio
-					</span>
-				</a>
+			<div class="container">
+				<nav>
+					<a href="./index.html">
+						<span class="logo">
+							<span class="web">Web</span>
+							Studio
+						</span>
+					</a>
+					<ul>
+						<li><a href="./index.html" class="link">Студия</a></li>
+						<li><a href="./portfolio.html" class="link">Портфолио</a></li>
+						<li><a href="" class="link">Контакты</a></li>
+					</ul>
+				</nav>
 				<ul>
-					<li><a href="./index.html" class="link">Студия</a></li>
-					<li><a href="./portfolio.html" class="link">Портфолио</a></li>
-					<li><a href="" class="link">Контакты</a></li>
+					<li>
+						<img src="./images/envelope.svg" alt="Email" />
+						<a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+					</li>
+					<li>
+						<img src="./images/smartphone.svg" alt="Tel" />
+						<a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+					</li>
 				</ul>
-			</nav>
-			<ul>
-				<li>
-					<img src="./images/envelope.svg" alt="Email" />
-					<a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-				</li>
-				<li>
-					<img src="./images/smartphone.svg" alt="Tel" />
-					<a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-				</li>
-			</ul>
+			</div>
 		</header>
 		<main>
 			<!-- Баннер -->
-			<div>
-				<section>
-					<h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-					<button type="button" class="button">Заказать услугу</button>
-				</section>
-				<!-- Под баннером -->
-				<section class="benefits">
+			<section class="banner">
+				<h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+				<button type="button" class="button">Заказать услугу</button>
+			</section>
+			<!-- Под баннером -->
+			<section class="benefits">
+				<div class="container">
 					<h2 hidden>Наши преимущества</h2>
 					<ul>
 						<li>
@@ -79,9 +81,11 @@
 							</p>
 						</li>
 					</ul>
-				</section>
-				<!-- Чем занимаемся -->
-				<section class="duties">
+				</div>
+			</section>
+			<!-- Чем занимаемся -->
+			<section class="duties">
+				<div class="container">
 					<h2 class="main-header">Чем мы занимаемся</h2>
 					<nav>
 						<ul>
@@ -99,10 +103,12 @@
 							</li>
 						</ul>
 					</nav>
-				</section>
-				<!-- Наша команда -->
-				<section class="team">
-					<h2 class="main-header">Наша команда</h2>
+				</div>
+			</section>
+			<!-- Наша команда -->
+			<section class="team">
+				<h2 class="main-header">Наша команда</h2>
+				<div class="container">
 					<ul>
 						<li>
 							<img src="./images/photo1.jpg" alt="Фото Николая Кучеренко" width="270" height="260" />
@@ -308,9 +314,11 @@
 							</ul>
 						</li>
 					</ul>
-				</section>
-				<!-- Постоянные клиенты -->
-				<section>
+				</div>
+			</section>
+			<!-- Постоянные клиенты -->
+			<section class="clients">
+				<div class="container">
 					<h2 class="main-header">Постоянный клиенты</h2>
 					<ul>
 						<li>
@@ -344,90 +352,93 @@
 							</a>
 						</li>
 					</ul>
-				</section>
-			</div>
+				</div>
+			</section>
 		</main>
 		<!-- Футер -->
 		<footer class="footer">
-			<div>
-				<a href="./index.html">
-					<span class="logo">
-						<span class="web">Web</span>
-						Studio
-					</span>
-				</a>
-				<address>
-					<span class="address">
-						г. Киев, пр-т Леси Украинки, 26
-						<br />
-					</span>
-					<span class="address text">
-						info@example.com
-						<br />
-						+38 099 111 11 11
-						<br />
-					</span>
-				</address>
-			</div>
-			<div>
-				<b class="footer-title">Присоединяйтесь</b>
-				<ul>
-					<li>
-						<a
-							href="https://www.instagram.com"
-							class="link"
-							target="_blank"
-							rel="noopener noreferrer"
-							aria-label="Ссылка на инстаграм"
-						>
-							Instagram
-						</a>
-					</li>
-					<li>
-						<a
-							href="https://www.twitter.com"
-							class="link"
-							target="_blank"
-							rel="noopener noreferrer"
-							aria-label="Ссылка на твиттер"
-						>
-							Twitter
-						</a>
-					</li>
-					<li>
-						<a
-							href="https://www.facebook"
-							class="link"
-							target="_blank"
-							rel="noopener noreferrer"
-							aria-label="Ссылка на фейсбук"
-						>
-							Facebook
-						</a>
-					</li>
-					<li>
-						<a
-							href="https://www.linkedin.com"
-							class="link"
-							target="_blank"
-							rel="noopener noreferrer"
-							aria-label="Ссылка на линкед ин"
-						>
-							Linkedin
-						</a>
-					</li>
-				</ul>
-			</div>
-			<div>
-				<b class="footer-title">Подпишитесь на рассылку</b>
-				<ul>
-					<li><textarea class="address-text">E-mail</textarea></li>
-					<li>
-						<a href="https://www.twitter.com" class="link" target="_blank" rel="noopener noreferrer">
-							<img src="./images/button-1.svg" alt="Кнопка перехода на твиттер" />
-						</a>
-					</li>
-				</ul>
+			<div class="container">
+				<div>
+					<a href="./index.html">
+						<span class="logo">
+							<span class="web">Web</span>
+							Studio
+						</span>
+					</a>
+					<address>
+						<span class="address">
+							г. Киев, пр-т Леси Украинки, 26
+							<br />
+						</span>
+						<span class="address text">
+							info@example.com
+							<br />
+							+38 099 111 11 11
+							<br />
+						</span>
+					</address>
+				</div>
+				<div>
+					<b class="footer-title">Присоединяйтесь</b>
+					<ul>
+						<li>
+							<a
+								href="https://www.instagram.com"
+								class="link"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="Ссылка на инстаграм"
+							>
+								Instagram
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://www.twitter.com"
+								class="link"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="Ссылка на твиттер"
+							>
+								Twitter
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://www.facebook"
+								class="link"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="Ссылка на фейсбук"
+							>
+								Facebook
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://www.linkedin.com"
+								class="link"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="Ссылка на линкед ин"
+							>
+								Linkedin
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-coontainer email">
+					<b class="footer-title">Подпишитесь на рассылку</b>
+					<ul>
+						<li><textarea class="address-text">E-mail</textarea></li>
+						<li>
+							<a href="https://www.twitter.com" class="button" target="_blank" rel="noopener noreferrer">
+								<span>Подписаться</span>
+								<img src="./images/icon-twitter.svg" />
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</footer>
 	</body>
