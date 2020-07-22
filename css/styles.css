@@ -431,7 +431,7 @@ h3 {
 	padding-top: 93px;
 	outline: 1px solid blue;
 }
-.portfolio.container .list-item:not(:last-child) {
+.portfolio.navi .list-item:not(:last-child) {
 	margin-right: 8px;
 	align-items: center;
 }
