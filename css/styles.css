@@ -390,7 +390,7 @@ h3 {
 .address-text {
 	padding: 15px 295px 15px 16px;
 	font-family: Roboto, sans-serif;
-	font-weight: 400px;
+	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.2;
 	align-items: center;
@@ -417,6 +417,24 @@ h3 {
 	letter-spacing: 0.06em;
 }
 /* Портфолио */
+.portfolio.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1230px;
+	padding-left: 15px;
+	padding-right: 15px;
+	outline: 1px solid brown;
+}
+.portfolio > nav {
+	display: flex;
+	justify-content: center;
+	padding-top: 93px;
+	outline: 1px solid blue;
+}
+.portfolio.container .list-item:not(:last-child) {
+	margin-right: 8px;
+	align-items: center;
+}
 .portfolio .button {
 	color: var(--primary-text-color);
 	background-color: var(--secondary-background-color);
@@ -443,6 +461,26 @@ h3 {
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
+	margin: 20px 24px 4px 24px;
+}
+.projects.container {
+	padding-top: 34px;
+	padding-bottom: 94px;
+	outline: 1px solid tomato;
+}
+.projects.container .list {
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.cards {
+	display: inline-block;
+}
+.cards .list-item:nth-child(3n + 2) {
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.cards .list-item:nth-child(-n + 6) {
+	margin-bottom: 30px;
 }
 .projects .text {
 	font-family: Roboto, sans-serif;
@@ -452,12 +490,5 @@ h3 {
 	line-height: 1.9;
 	letter-spacing: 0.03em;
 	color: var(--secondary-text-color);
-}
-.projects .description {
-	font-family: Roboto, sans-serif;
-	color: var(--button-text-color);
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 1.6;
-	letter-spacing: 0.03em;
+	margin: 0px 24px 20px 24px;
 }
