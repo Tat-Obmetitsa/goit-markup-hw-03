@@ -14,66 +14,74 @@
 	</head>
 	<body>
 		<!-- Шапка -->
-		<header>
-			<div class="container">
-				<nav>
-					<a href="./index.html">
-						<span class="logo">
-							<span class="web">Web</span>
-							Studio
-						</span>
-					</a>
-					<ul>
-						<li><a href="./index.html" class="link">Студия</a></li>
-						<li><a href="./portfolio.html" class="link">Портфолио</a></li>
-						<li><a href="" class="link">Контакты</a></li>
+		<header class="head">
+			<div class="head container">
+				<div class="head navi">
+					<nav>
+						<div class="head logo">
+							<a href="./index.html">
+								<span class="logo">
+									<span class="web">Web</span>
+									Studio
+								</span>
+							</a>
+						</div>
+						<div class="head pages">
+							<ul class="list">
+								<li class="list-item"><a href="./index.html" class="link">Студия</a></li>
+								<li class="list-item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+								<li class="list-item"><a href="" class="link">Контакты</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<div class="head contacts">
+					<ul class="head list">
+						<li class="list-item">
+							<a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+						</li>
+						<li class="list-item">
+							<a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+						</li>
 					</ul>
-				</nav>
-				<ul>
-					<li>
-						<img src="./images/envelope.svg" alt="Email" />
-						<a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-					</li>
-					<li>
-						<img src="./images/smartphone.svg" alt="Tel" />
-						<a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-					</li>
-				</ul>
+				</div>
 			</div>
 		</header>
 		<main>
 			<!-- Баннер -->
 			<section class="banner">
-				<h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-				<button type="button" class="button">Заказать услугу</button>
+				<div class="banner container">
+					<h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+					<button type="button" class="button">Заказать услугу</button>
+				</div>
 			</section>
 			<!-- Под баннером -->
 			<section class="benefits">
-				<div class="container">
-					<h2 hidden>Наши преимущества</h2>
-					<ul>
-						<li>
+				<h2 hidden>Наши преимущества</h2>
+				<div class="benefits container">
+					<ul class="list">
+						<li class="list-item">
 							<img src="./images/antenna-1.svg" alt="Антенна" />
 							<h3 class="header">Внимание к деталям</h3>
 							<p class="text">
 								Идейные соображения, а также начало повседневной работы по формированию позиции.
 							</p>
 						</li>
-						<li>
+						<li class="list-item">
 							<img src="./images/clock-1.svg" alt="Часы" />
 							<h3 class="header">Пунктуальность</h3>
 							<p class="text">
 								Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
 							</p>
 						</li>
-						<li>
+						<li class="list-item">
 							<img src="./images/laptop-1.svg" alt="Логотип ноутбука" />
 							<h3 class="header">Планирование</h3>
 							<p class="text">
 								Равным образом консультация с широким активом в значительной степени обуславливает.
 							</p>
 						</li>
-						<li>
+						<li class="list-item">
 							<img src="./images/group.svg" alt="Логотип космонавта" />
 							<h3 class="header">Современные технологии</h3>
 							<p class="text">
@@ -85,32 +93,30 @@
 			</section>
 			<!-- Чем занимаемся -->
 			<section class="duties">
-				<div class="container">
+				<div class="duties container">
 					<h2 class="main-header">Чем мы занимаемся</h2>
-					<nav>
-						<ul>
-							<li>
-								<img src="./images/apps.jpg" alt="ноутбук" width="370" height="294" />
-								<p class="secondary-text">Десктопные приложения</p>
-							</li>
-							<li>
-								<img src="./images/box.jpg" alt="телефон" width="370" height="294" />
-								<p class="secondary-text">Мобильные приложения</p>
-							</li>
-							<li>
-								<img src="./images/screen.jpg" alt="экран" width="370" height="294" />
-								<p class="secondary-text">Дизайнерские решения</p>
-							</li>
-						</ul>
-					</nav>
+					<ul class="list">
+						<li class="list-item">
+							<img src="./images/apps.jpg" alt="ноутбук" width="370" height="294" />
+							<p class="secondary-text">Десктопные приложения</p>
+						</li>
+						<li class="list-item">
+							<img src="./images/box.jpg" alt="телефон" width="370" height="294" />
+							<p class="secondary-text">Мобильные приложения</p>
+						</li>
+						<li class="list-item">
+							<img src="./images/screen.jpg" alt="экран" width="370" height="294" />
+							<p class="secondary-text">Дизайнерские решения</p>
+						</li>
+					</ul>
 				</div>
 			</section>
 			<!-- Наша команда -->
 			<section class="team">
-				<h2 class="main-header">Наша команда</h2>
-				<div class="container">
-					<ul>
-						<li>
+				<div class="team container">
+					<h2 class="main-header">Наша команда</h2>
+					<ul class="list">
+						<li class="list-item">
 							<img src="./images/photo1.jpg" alt="Фото Николая Кучеренко" width="270" height="260" />
 							<h3 class="header">Николай Кучеренко</h3>
 							<p class="text">Product Designer</p>
@@ -161,7 +167,7 @@
 								</li>
 							</ul>
 						</li>
-						<li>
+						<li class="list-item">
 							<img src="./images/photo2.jpg" alt="Фото Ольги Ивановой" width="270" height="260" />
 							<h3 class="header">Ольга Иванова</h3>
 							<p class="text">Frontend Developer</p>
@@ -212,7 +218,7 @@
 								</li>
 							</ul>
 						</li>
-						<li>
+						<li class="list-item">
 							<img src="./images/photo3.jpg" alt="Фото Андрея Шевченко" width="270" height="260" />
 							<h3 class="header">Андрей Шевченко</h3>
 							<p class="text">Marketing</p>
@@ -263,7 +269,7 @@
 								</li>
 							</ul>
 						</li>
-						<li>
+						<li class="list-item">
 							<img src="./images/photo4.jpg" alt="Фото Ивана Николаева" width="270" height="260" />
 							<h3 class="header">Иван Николаев</h3>
 							<p class="text">UI Designer</p>
@@ -318,35 +324,35 @@
 			</section>
 			<!-- Постоянные клиенты -->
 			<section class="clients">
-				<div class="container">
+				<div class="clients container">
 					<h2 class="main-header">Постоянный клиенты</h2>
-					<ul>
-						<li>
+					<ul class="list">
+						<li class="list-item">
 							<a href="" class="link" target="_blank" rel="noopener noreferrer">
 								<img src="./images/logo-1.svg" alt="Логотип компании 1" />
 							</a>
 						</li>
-						<li>
+						<li class="list-item">
 							<a href="" class="link" target="_blank" rel="noopener noreferrer">
 								<img src="./images/logo-2.svg" alt="Логотип компании 2" />
 							</a>
 						</li>
-						<li>
+						<li class="list-item">
 							<a href="" class="link" target="_blank" rel="noopener noreferrer">
 								<img src="./images/logo-3.svg" alt="Логотип компании 3" />
 							</a>
 						</li>
-						<li>
+						<li class="list-item">
 							<a href="" class="link" target="_blank" rel="noopener noreferrer">
 								<img src="./images/logo-4.svg" alt="Логотип компании 4" />
 							</a>
 						</li>
-						<li>
+						<li class="list-item">
 							<a href="" class="link" target="_blank" rel="noopener noreferrer">
 								<img src="./images/logo-5.svg" alt="Логотип компании 5" />
 							</a>
 						</li>
-						<li>
+						<li class="list-item">
 							<a href="" class="link" target="_blank" rel="noopener noreferrer">
 								<img src="./images/logo-6.svg" alt="Логотип компании 6" />
 							</a>
@@ -357,8 +363,8 @@
 		</main>
 		<!-- Футер -->
 		<footer class="footer">
-			<div class="container">
-				<div>
+			<div class="footer container">
+				<div class="footer navi">
 					<a href="./index.html">
 						<span class="logo">
 							<span class="web">Web</span>
@@ -378,10 +384,10 @@
 						</span>
 					</address>
 				</div>
-				<div>
-					<b class="footer-title">Присоединяйтесь</b>
-					<ul>
-						<li>
+				<div class="footer networks">
+					<b class="footer title">Присоединяйтесь</b>
+					<ul class="list">
+						<li class="list-item">
 							<a
 								href="https://www.instagram.com"
 								class="link"
@@ -392,7 +398,7 @@
 								Instagram
 							</a>
 						</li>
-						<li>
+						<li class="list-item">
 							<a
 								href="https://www.twitter.com"
 								class="link"
@@ -403,7 +409,7 @@
 								Twitter
 							</a>
 						</li>
-						<li>
+						<li class="list-item">
 							<a
 								href="https://www.facebook"
 								class="link"
@@ -414,7 +420,7 @@
 								Facebook
 							</a>
 						</li>
-						<li>
+						<li class="list-item">
 							<a
 								href="https://www.linkedin.com"
 								class="link"
@@ -427,11 +433,11 @@
 						</li>
 					</ul>
 				</div>
-				<div class="footer-coontainer email">
-					<b class="footer-title">Подпишитесь на рассылку</b>
-					<ul>
-						<li><textarea class="address-text">E-mail</textarea></li>
-						<li>
+				<div class="footer email">
+					<b class="footer title">Подпишитесь на рассылку</b>
+					<ul class="list">
+						<li class="list-item"><textarea class="address-text">E-mail</textarea></li>
+						<li class="list-item">
 							<a href="https://www.twitter.com" class="button" target="_blank" rel="noopener noreferrer">
 								<span>Подписаться</span>
 								<img src="./images/icon-twitter.svg" />
