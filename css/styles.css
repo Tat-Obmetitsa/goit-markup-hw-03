@@ -53,13 +53,11 @@ h3 {
 .container {
 	margin-left: auto;
 	margin-right: auto;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 .head.container {
-	width: 1230px;
-	padding-left: 15px;
-	padding-right: 15px;
+	width: 1200px;
 	display: flex;
 	outline: 1px solid blue;
 }
@@ -92,8 +90,6 @@ h3 {
 .benefits.container {
 	outline: 1px solid orange;
 	width: 1200px;
-	padding-left: 15px;
-	padding-right: 15px;
 	padding-top: 264px;
 }
 .benefits.container .list {
@@ -116,9 +112,7 @@ h3 {
 }
 .duties.container {
 	outline: 1px solid purple;
-	min-width: 1200px;
-	padding-left: 15px;
-	padding-right: 15px;
+	width: 1200px;
 	padding-bottom: 0px;
 }
 .duties.container > ul {
@@ -140,8 +134,6 @@ h3 {
 .team.container {
 	outline: 1px solid green;
 	width: 1200px;
-	padding-left: 15px;
-	padding-right: 15px;
 	padding-top: 94px;
 	padding-bottom: 0px;
 }
@@ -166,8 +158,6 @@ h3 {
 .clients.container {
 	outline: 1px solid red;
 	width: 1200px;
-	padding-left: 15px;
-	padding-right: 15px;
 	padding-bottom: 0px;
 	padding-top: 0px;
 }
@@ -183,8 +173,6 @@ h3 {
 }
 .footer.container {
 	width: 1200px;
-	padding-left: 15px;
-	padding-right: 15px;
 	display: flex;
 	align-items: flex-start;
 	outline: 1px solid yellowgreen;
@@ -353,10 +341,10 @@ h3 {
 	line-height: 1.7;
 	letter-spacing: 0.03em;
 }
-.footer.navi {
+.footer-navi {
 	margin-top: 50px;
 }
-.footer.navi > address {
+.footer-navi > address {
 	margin-top: 20px;
 	margin-right: 69px;
 }
@@ -417,21 +405,19 @@ h3 {
 	letter-spacing: 0.06em;
 }
 /* Портфолио */
-.portfolio.container {
-	margin-left: auto;
+.filter {
+	outline: 1px solid green;
+	width: 1200px;
 	margin-right: auto;
-	width: 1230px;
-	padding-left: 15px;
-	padding-right: 15px;
-	outline: 1px solid brown;
+	margin-left: auto;
 }
-.portfolio > nav {
+.navi-list {
 	display: flex;
 	justify-content: center;
 	padding-top: 93px;
 	outline: 1px solid blue;
 }
-.portfolio.navi .list-item:not(:last-child) {
+.navi-item:not(:last-child) {
 	margin-right: 8px;
 	align-items: center;
 }
@@ -464,22 +450,22 @@ h3 {
 	margin: 20px 24px 4px 24px;
 }
 .projects.container {
-	padding-top: 34px;
-	padding-bottom: 94px;
+	width: 1200px;
+	padding: 50px 0px 94px 0px;
 	outline: 1px solid tomato;
 }
-.projects.container .list {
+.cards-list {
 	flex-wrap: wrap;
-	justify-content: space-between;
 }
 .cards {
 	display: inline-block;
+	justify-content: center;
 }
-.cards .list-item:nth-child(3n + 2) {
+.cards:nth-child(3n + 2) {
 	margin-right: 30px;
 	margin-left: 30px;
 }
-.cards .list-item:nth-child(-n + 6) {
+.cards:nth-child(-n + 6) {
 	margin-bottom: 30px;
 }
 .projects .text {
