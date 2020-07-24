@@ -130,7 +130,6 @@ section {
 	padding-bottom: 94px;
 }
 .team .container {
-	outline: 1px solid green;
 	padding-top: 94px;
 	padding-bottom: 0px;
 }
@@ -152,7 +151,6 @@ section {
 	padding-bottom: 94px;
 }
 .clients .container {
-	outline: 1px solid red;
 	padding-bottom: 0px;
 	padding-top: 0px;
 }
@@ -170,7 +168,6 @@ section {
 	text-align: center;
 }
 .banner .container {
-	outline: 1px solid tomato;
 	padding-top: 200px;
 }
 /* Логотипы и кнопки */
@@ -195,6 +192,9 @@ section {
 	padding: 10px 32px;
 	margin-top: 40px;
 	margin-bottom: 200px;
+}
+.email-item .button{
+	margin-left: 12px;
 }
 .logo {
 	font-family: Raleway, sans-serif;
@@ -313,6 +313,7 @@ section {
 .footer-container {
 	display: flex;
 	align-items: center;
+	padding-top: 60px;
 }
 	.address {
 	font-style: normal;
@@ -333,12 +334,10 @@ section {
 	letter-spacing: 0.03em;
 	margin-top: 9px;
 }
-.footer-navi {
-	margin-right: 69px;
 }
 .networks-item {
 	margin-top: 20px;
-	display: inline-block;
+	display: flex;
 }
 .footer-navi > address {
 	margin-top: 20px;
@@ -354,7 +353,7 @@ section {
 	text-transform: uppercase;
 }
 .email-list {
-	display: flexbox;
+	display: flex;
 	align-items: flex-start;
 	margin-top: 20px;
 }
@@ -362,9 +361,7 @@ section {
 	margin-right: 22px;
 }
 .networks {
-	min-width: 206px;
-	margin: 62px 94px 110px 69px;
-	display: flexbox;
+	margin: 0px 94px 0px 69px; 
 }
 .footer-email {
 	margin-top: 72px 
@@ -400,17 +397,10 @@ section {
 	letter-spacing: 0.06em;
 }
 /* Портфолио */
-.filter {
-	outline: 1px solid green;
-	width: 1200px;
-	margin-right: auto;
-	margin-left: auto;
-}
 .navi-list {
 	display: flex;
 	justify-content: center;
 	padding-top: 93px;
-	outline: 1px solid blue;
 }
 .navi-item:not(:last-child) {
 	margin-right: 8px;
@@ -444,10 +434,8 @@ section {
 	letter-spacing: 0.06em;
 	margin: 20px 24px 4px 24px;
 }
-.projects.container {
-	width: 1200px;
+.projects .container {
 	padding: 50px 0px 94px 0px;
-	outline: 1px solid tomato;
 }
 .cards-list {
 	flex-wrap: wrap;
