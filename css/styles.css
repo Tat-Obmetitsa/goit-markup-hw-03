@@ -33,12 +33,6 @@ a[href]:hover,
 a[href]:focus {
 	color: var(--accent-text-color);
 }
-	
-h1,
-h2,
-h3 {
-	margin: 0px;
-}
 /* Containers */
 .container {
 	margin-left: auto;
